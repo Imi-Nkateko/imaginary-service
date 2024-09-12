@@ -1,1 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+
+}
+
+img {
+    width: 500px;
+    height: 100vh;
+}
+.image-container {
+    width: 500px;
+    height: 100vh;
+}
+
+.logo-container {
+    position: absolute;
+    display: flex;
+    padding-left: 180px;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 500px;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-block: 10px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.form-container {
+    background-color: rgba(231, 231, 231, 0.541);
+    width: 100%;
+}
+
+.services-container {
+    padding-left: 60px;
+    padding-top: 95px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+form {
+    background-color: #FFF;
+    padding-left: 60px;
+    padding-block: 15px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+legend {
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.788);
+    padding-bottom: 15px;
+}
+
+.feildset-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+   padding-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+    display: grid;
+
+}
+
+input {
+    width: 250px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
+    outline: none;
+    padding: 5px;
+}
+
+#password,#confirm-password:invalid {
+    border-color: red;
+}
+
+label {
+    font-size: 10px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 60px;
+}
+
+button {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    background-color: #596D48;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+small {
+    font-weight: 600;
+}
+
+span {
+    color: #596D48;
+    cursor: pointer;
+}
